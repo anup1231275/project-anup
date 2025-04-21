@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="Anup Pokharel" />
+  
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="Style/Style.css" />
+  
+  <!-- Favicon -->
+  <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIG4RZLQCCvYzUOzCLUpTWsSgLYhZJwhfxbw&s" />
+  
+  <title>Anup </title>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="nav">
+    <section class="nav-contents">
+      <!-- Title -->
+      <div class="nav-title" onclick="location.reload()">
+       ANUP
+      </div>
+      
+      <!-- Navigation Links -->
+      <div class="nav-items" id="nav-items">
+        <a href="#about">ABOUT</a>
+        <a href="#experience">EXPERIENCE</a>
+        <a href="#projects">PROJECTS</a>
+        <a href="#awards">AWARDS & CERTIFICATIONS</a>
+        <a href="#contact">CONTACT</a>
+      </div>
+      
+      <!-- Hamburger Menu -->
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </section>
+  </nav>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <section class="about-contents">
+      <!-- Description -->
+      <article class="about-description">
+        <h1>ANUP POKHAREL</h1>
+        <h3>BIM | WEB | UI/UX</h3>
+        <p>A web developer passionate about creating user-friendly web experiences.</p>
+        <blockquote><strong>Skills:</strong> HTML, CSS, JS, Figma, UI/UX, Responsive Design, Web Frameworks, Collaboration.</blockquote>
+      </article>
+      
+      <!-- Profile Image -->
+      <div class="about-image">
+        <a 
+                 target="blank">
+                   
+                    <img src="Assests/images/1000220505 (1).jpg"
+                    
+                    alt=""
+                    />
+                    
+            </a>
+            
+
+        
+      </div>
+      
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <section class="experience-contents">
+      <section id="contents-left">
+        <h2 class="contents-title">EXPERIENCE</h2>
+        <section class="experience-items">
+
+          
+
+          <div id="exp-2" onclick="showExp('exp-2-content')">
+            <h3>Hackathon HSMSS</h3>
+            <p>Winner | 2024</p>
+          </div>
+
+          <!-- Placeholder experiences with unique IDs -->
+          <div id="exp-4" onclick="showExp('exp-4-content')">
+            <h3>Lorem Ipsum</h3>
+            <p>Lorem Ipsum | 202X - 202X</p>
+          </div>
+
+          <div id="exp-5" onclick="showExp('exp-5-content')">
+            <h3>Lorem Ipsum</h3>
+            <p>Lorem Ipsum | 202X - Ongoing</p>
+          </div>
+
+          <div id="exp-6" onclick="showExp('exp-5-content')">
+            <h3>Lorem Ipsum</h3>
+            <p>Lorem Ipsum | 202X - Ongoing</p>
+          </div>
+
+        </section>
+      </section>
+
+      
+
+        
+
+        <div id="exp-4-content" style="display: none;">
+          <h2>Lorem Ipsum</h2>
+          <i>Lorem Ipsum | 202X - 202X</i>
+          <hr />
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+
+        <div id="exp-5-content" style="display: none;">
+          <h2>Lorem Ipsum</h2>
+          <i>Lorem Ipsum | 202X - Ongoing</i>
+          <hr />
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+      </section>
+    </section>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <section class="projects-contents">
+      <h2 class="contents-title">PROJECTS</h2>
+      <section class="project-items">
+
+        <div id="project-1">
+          <h2>SMS</h2>
+          <blockquote>HTML, CSS, JS | 2024</blockquote>
+          <p>A web-based Discipline Detection System.</p>
+          <p><a href="#">Link</a></p>
+        </div>
+
+        <div id="project-2">
+          <h2>Lorem Ipsum 1</h2>
+          <blockquote>Lorem Ipsum | 2024</blockquote>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <p><a href="#">Link</a></p>
+        </div>
+
+        
+
+        <div id="project-4">
+          <h2>Lorem Ipsum 2</h2>
+          <blockquote>Lorem Ipsum | 2024</blockquote>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <p><a href="#">Link</a></p>
+        </div>
+
+        <div id="project-5">
+          <h2>Lorem Ipsum 3</h2>
+          <blockquote>Lorem Ipsum | 2024</blockquote>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <p><a href="#">Link</a></p>
+        </div>
+
+      </section>
+    </section>
+  </section>
+
+  <!-- AWARDS & CERTIFICATIONS -->
+  <section id="awards">
+    <section class="awards-contents">
+      <section id="contents-left">
+        <h2 class="contents-title">AWARDS & CERTIFICATIONS</h2>
+        <section class="awards-items">
+
+          <div id="awards-1" class="active" onclick="showAwards('awards-1-content')">
+            <h3>Hackathon</h3>
+            <p>HSMSS | 2025</p>
+          </div>
+
+          <div id="awards-2" onclick="showAwards('awards-2-content')">
+            <h3>Lorem Ipsum #2</h3>
+            <p>Lorem Ipsum | 20XX</p>
+          </div>
+
+          <div id="awards-3" onclick="showAwards('awards-3-content')">
+            <h3>Lorem Ipsum #3</h3>
+            <p>Lorem Ipsum | 20XX</p>
+          </div>
+
+          <div id="awards-4" onclick="showAwards('awards-4-content')">
+            <h3>Lorem Ipsum #4</h3>
+            <p>Lorem Ipsum | 20XX</p>
+          </div>
+
+          <div id="awards-5" onclick="showAwards('awards-5-content')">
+            <h3>Lorem Ipsum #5</h3>
+            <p>Lorem Ipsum | 20XX</p>
+          </div>
+
+        </section>
+      </section>
+
+      <section id="awards-contents-right">
+        <div id="awards-1-content">
+          <h2>Hackathon</h2>
+          <i>HSMSS | 2024</i>
+          <hr />
+          <p>Received a certificate upon  winning Hackathon along with team member. <a href="#">Certificate</a></p>
+        </div>
+
+        <div id="awards-2-content" style="display: none;">
+          <h2>Lorem Ipsum #2</h2>
+          <i>Lorem Ipsum | 20XX</i>
+          <hr />
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+
+        <div id="awards-3-content" style="display: none;">
+          <h2>Lorem Ipsum #3</h2>
+          <i>Lorem Ipsum | 20XX</i>
+          <hr />
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+
+        <div id="awards-4-content" style="display: none;">
+          <h2>Lorem Ipsum #4</h2>
+          <i>Lorem Ipsum | 20XX</i>
+          <hr />
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+
+        <div id="awards-5-content" style="display: none;">
+          <h2>Lorem Ipsum #5</h2>
+          <i>Lorem Ipsum | 20XX</i>
+          <hr />
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+      </section>
+    </section>
+  </section>
+
+  <!-- FOOTER / CONTACT -->
+  <footer id="contact">
+    <section class="contact-contents">
+
+      <div class="contact-links">
+        <h3>LINKS</h3>
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#awards">Awards & Certifications</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div class="contact-connect">
+        <h3>CONNECT</h3>
+        <a href="#">Github</a>
+        <a href="#">LinkedIn</a>
+      </div>
+
+      <div>
+        <h3>CONTACT</h3>
+        <a href="pokhrelanup147@gmail.com">Email Me</a>
+      </div>
+
+    </section>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="scripts/script.js"></script>
+</body>
+</html>
